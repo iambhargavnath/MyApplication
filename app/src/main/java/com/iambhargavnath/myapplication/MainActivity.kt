@@ -24,5 +24,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, LoginActivity::class.java)
             startActivity(intent)
         }
+
+        val alertDialogPageBtn: Button = findViewById(R.id.alertDialogPageBtn)
+        alertDialogPageBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, AlertDialogActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
