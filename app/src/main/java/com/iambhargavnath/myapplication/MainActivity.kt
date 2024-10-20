@@ -30,5 +30,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, AlertDialogActivity::class.java)
             startActivity(intent)
         }
+
+        val sharedPrefBtn: Button = findViewById(R.id.sharedPrefBtn)
+        sharedPrefBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, SharedPrefActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

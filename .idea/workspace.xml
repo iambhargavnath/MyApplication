@@ -28,19 +28,27 @@
           <theme>@style/Theme.MyApplication</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shared_pref.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb28688-d4c6-4708-9f35-3480ea29b1f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/AlertDialogActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alert_dialog.xml" afterDir="false" />
+    <list default="true" id="4cb28688-d4c6-4708-9f35-3480ea29b1f4" name="Changes" comment="Added AlertDialogActivity">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/SharedPrefActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shared_pref.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +153,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
+    <key name="android.template.-1790796051">
+      <recent name="com.iambhargavnath.myapplication" />
+    </key>
     <key name="android.template.-1467671303">
       <recent name="com.iambhargavnath.myapplication.home" />
       <recent name="com.iambhargavnath.myapplication" />
@@ -236,6 +247,35 @@
       <option name="presentableId" value="Default" />
       <updated>1728137501013</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added AlertDialogActivity">
+      <option name="closed" value="true" />
+      <created>1729186297152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729186297152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added AlertDialogActivity">
+      <option name="closed" value="true" />
+      <created>1729186322310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729186322310</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added AlertDialogActivity">
+      <option name="closed" value="true" />
+      <created>1729186387996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729186387996</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added AlertDialogActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AlertDialogActivity" />
   </component>
 </project>
