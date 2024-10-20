@@ -30,5 +30,25 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, AlertDialogActivity::class.java)
             startActivity(intent)
         }
+
+        val sharedPrefBtn: Button = findViewById(R.id.sharedPrefBtn)
+        sharedPrefBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, SharedPrefActivity::class.java)
+            startActivity(intent)
+        }
+
+        val recycleViewBtn: Button = findViewById(R.id.recycleViewBtn)
+        recycleViewBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, RecyclerActivity::class.java)
+            startActivity(intent)
+        }
+
+        val webViewBtn: Button = findViewById(R.id.webViewBtn)
+        webViewBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, WebViewActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

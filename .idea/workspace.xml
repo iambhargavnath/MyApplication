@@ -28,18 +28,50 @@
           <theme>@style/Theme.MyApplication</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recycler.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shared_pref.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_flower.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb28688-d4c6-4708-9f35-3480ea29b1f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/AlertDialogActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alert_dialog.xml" afterDir="false" />
+    <list default="true" id="4cb28688-d4c6-4708-9f35-3480ea29b1f4" name="Changes" comment="Added SharedPrefActivity">
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/dahlia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/kopou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/lotus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/pink_rose.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/sunflower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/RecyclerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/WebViewActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/adapter/ItemAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/model/Flower.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recycler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_flower.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/SharedPrefActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/SharedPrefActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +130,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -136,14 +171,24 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/iambhargavnath/Developer/Android/Practice/MyApplication/app/src/main/res/drawable&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/iambhargavnath/Developer/Android/Practice/MyApplication/app/src/main/assets&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="android.template.-915627459">
+      <recent name="com.iambhargavnath.myapplication" />
+    </key>
+    <key name="android.template.-1790796051">
+      <recent name="com.iambhargavnath.myapplication" />
+    </key>
+    <key name="android.template.-38210128">
+      <recent name="com.iambhargavnath.myapplication" />
     </key>
     <key name="android.template.-1467671303">
       <recent name="com.iambhargavnath.myapplication.home" />
@@ -236,6 +281,53 @@
       <option name="presentableId" value="Default" />
       <updated>1728137501013</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added AlertDialogActivity">
+      <option name="closed" value="true" />
+      <created>1729186297152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729186297152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added AlertDialogActivity">
+      <option name="closed" value="true" />
+      <created>1729186322310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729186322310</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added AlertDialogActivity">
+      <option name="closed" value="true" />
+      <created>1729186387996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729186387996</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added SharedPrefActivity">
+      <option name="closed" value="true" />
+      <created>1729447531640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729447531640</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added SharedPrefActivity">
+      <option name="closed" value="true" />
+      <created>1729447599723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729447599723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added AlertDialogActivity" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Added SharedPrefActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SharedPrefActivity" />
   </component>
 </project>
