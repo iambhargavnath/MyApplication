@@ -54,26 +54,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb28688-d4c6-4708-9f35-3480ea29b1f4" name="Changes" comment="Added SharedPrefActivity">
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/dahlia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/kopou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/lotus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/pink_rose.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/sunflower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/RecyclerActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/WebViewActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/adapter/ItemAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/model/Flower.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recycler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_flower.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/SharedPrefActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iambhargavnath/myapplication/SharedPrefActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4cb28688-d4c6-4708-9f35-3480ea29b1f4" name="Changes" comment="Added SharedPrefActivity" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -321,13 +302,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729447599723</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added SharedPrefActivity">
+      <option name="closed" value="true" />
+      <created>1729614197300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729614197300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added SharedPrefActivity">
+      <option name="closed" value="true" />
+      <created>1729614220727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729614220727</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added AlertDialogActivity" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Added SharedPrefActivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SharedPrefActivity" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;app/build.gradle.kts&#10;#&#9;app/src/main/AndroidManifest.xml&#10;#&#9;app/src/main/java/com/iambhargavnath/myapplication/MainActivity.kt&#10;#&#9;app/src/main/java/com/iambhargavnath/myapplication/SharedPrefActivity.kt&#10;#&#9;app/src/main/res/layout/activity_main.xml" />
+    <MESSAGE value="Added RecyclerActivity and WebViewActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added RecyclerActivity and WebViewActivity" />
   </component>
 </project>
