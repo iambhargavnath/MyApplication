@@ -49,6 +49,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val designBtn: Button = findViewById(R.id.designBtn)
+        designBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity, DesignActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }

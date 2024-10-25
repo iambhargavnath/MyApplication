@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_user">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_profile"
+            android:title="Profile" />
+    </group>
+    <group android:id="@+id/group_multimedia">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icon_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/icon_cam"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/icon_music"
+            android:title="Music" />
+    </group>
+
+    <group android:id="@+id/account">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icon_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
