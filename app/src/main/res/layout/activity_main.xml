@@ -58,6 +58,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Design"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/messengerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messenger"/>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

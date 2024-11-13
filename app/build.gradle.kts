@@ -52,4 +52,6 @@ dependencies {
 
     implementation("androidx.webkit:webkit:1.12.1")
 
+    implementation("com.github.iambhargavnath:messenger-library:v1.0.0")
+
 }
